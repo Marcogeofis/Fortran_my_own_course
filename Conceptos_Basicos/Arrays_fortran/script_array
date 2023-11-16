@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo 'compilación y ejcución de array.f90'
+gfortran array.f90 -o array.out
+./array.out

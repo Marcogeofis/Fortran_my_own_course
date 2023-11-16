@@ -1,0 +1,32 @@
+Funciones 
+
+sqrt(x) => raís cuadrada
+abs(x) => valor absoluto
+sin(x) => seno en radianes
+sind(x) => seno en grados
+cos(x) => coseno en radianes
+cosd(x) => coseno en grados
+tan(x) => tangente en radianes
+tand(x) => tangente en grados
+
+****************************************************
+Inverso
+
+asin(x) => inverso seno en radianes
+asind(x) => inverso seno en grados
+acos(x) => inverso coseno en radianes
+acosd(x) => inverso coseno en grados
+atan(x) => inverso tangente en radianes
+atand(x) => inverso tangente en radianes
+atan2(y/x) => inverso de la tangente -pi <= x <= pi
+atan2d(y/x) => inverso de la tangente -pi <= x <= pi
+
+****************************************************
+exp(x) => exponenxial elavado e^x 
+log(x) => logaritmo de x
+log10(x) => logaritmo con base 10
+
+Mod(a,b) => modulo de la división
+max(a,b) => el máximo
+min(a,b) => el minimo
+

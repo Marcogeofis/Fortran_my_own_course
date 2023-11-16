@@ -1,0 +1,69 @@
+Ecuación cuadrática de segundo orden
+
+forma estándar:
+ax² + bx + c = 0
+
+Donde:
+a = coeficiente
+b = coeficiente
+c = coeficiente
+
+x = ?
+
+formula general:
+x = (-b + sqrt(b² - 4ac)) / 2a 
+x = (-b - sqrt(b² - 4ac)) / 2a 
+
+discrimanante = b² - 4ac
+
+b² - 4ac > 0, positovo tiene dos soluciones reales distintas.
+b² - 4ac = 0, tiene solución doble, +- se eliminan, solo sea una única solución.
+b² - 4ac < 0, negativo soluciones complejas, si se utiliza el signo +- para ambas soluciones posibles. 
+
+
+Evaluar los siguientes ejercicios:
+1. x² + 5x + 6 = 0,   x1 = -2 y x2 = -3    
+2. x² + 4x + 4 = 0,  x = -2
+3. x² + 2x + 5 = 0,  x1 = -1 + 2i, x2 = -1 - 2i   i = sqrt(-1) 
+
+***************************************
+Pseudocódigo
+
+1.- Iniciar programa y asignarle un nombre.
+2.- Agregar un comentario en que consiste nuestro programa.
+3.- que variables o constantes requerimos
+asignar los coeficientes = a, b, c
+signar los valores de las raices = x1, x2, parte_real, parte_imaginaria, discriminante
+4.- Imprimir las instrucciones de lo que hace le programa
+5.- Ingresar los datos como: a, b, c
+6.- Diseñar el algoritmo para resolver el problema
+x = -b + sqrt(b² - 4ac) / 2a
+7.- caso 1
+if(discriminante > 0 ) then 
+x1 = -b + sqrt(positivo) / 2a
+x2 = -b - sqrt(positivo) / 2a
+imprimir mensaje de que tiene dos raíces reales distintas
+imprimir el valor x1
+imprimir el valor x2
+8.- caso 2
+if(discriminante < 0 ) then 
+x1 =parte_real + parte_imaginara
+x1 =parte_real - parte_imaginara
+imprimir mensaje de que tiene dos raíces complejas
+imprimir el valor x1
+imprimir el valor x2
+9.- caso 3
+if(discriminante = 0 ) then 
+x1 = -b / 2*a
+imprimir mensaje de que tiene una única solución
+imprimir el valor x1 = x2 = única solución 
+10.- Terminar programa
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#Este escript genera mi compilación y ejecución
+echo 'Estoy realizando tu compilación y ejecución de tu programa, suerte!!'
+gfortran if_then_else.f90 -o if_then_else.out
+./if_then_else.out

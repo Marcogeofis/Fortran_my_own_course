@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo 'Compilando y ejecutando'
+gfortran firstPlots.f90 -o firstPlots.out
+./firstPlots.out

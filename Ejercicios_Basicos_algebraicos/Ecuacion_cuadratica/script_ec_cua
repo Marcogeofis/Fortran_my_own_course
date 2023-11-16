@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo 'Realizando la compilación y ejecución de tu programa'
+gfortran ec_cuadratica.f90 -o ec_cuadratica.out
+./ec_cuadratica.out
